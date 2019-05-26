@@ -23,7 +23,7 @@ Before compiling codes, the following software should be installed in your syste
 - From https://figshare.com/articles/American_College_Football_Network_Files/93179 you can download following dataset: footballTSE
 
 From http://math.bu.edu/people/kolaczyk/datasets.html you can download following datasets:
-Note that zachary and karate are same datasets, the difference is that zachary dataset provides ground-truth
+Note that zachary and karate are the same datasets, the difference is that zachary dataset provides ground-truth while karate without ground-truth
 
 ## Test dataset
 - zachary dataset
