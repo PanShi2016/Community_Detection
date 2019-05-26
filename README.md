@@ -22,10 +22,34 @@ Before compiling codes, the following software should be installed in your syste
 - From http://www-personal.umich.edu/~mejn/netdata/ you can download following datasets: karate, lesmis, adjnoun, football, dolphins, polblogs, polbooks, celegansneural, power, cond-mat, cond-mat-2003, cond-mat-2005, astro-ph, hep-th, netscience and as-22july06 
 - From https://figshare.com/articles/American_College_Football_Network_Files/93179 you can download following dataset: footballTSE
 
+From http://math.bu.edu/people/kolaczyk/datasets.html you can download following datasets:
 Note that zachary and karate are same datasets, the difference is that zachary dataset provides ground-truth
 
 ## Test dataset
 - zachary dataset
 - nodes: 34, edges: 78
 - two communities with ground truth size >= 3
+
+## How to run baseline algorithms
+
+### Global community detection algorithms
+```
+$ cd Baseline_Algorithms/Global_Algorithms/Algorithms/
+$ sh complile-all.sh
+$ sh run.sh
+$ cd processCode
+$ matlab
+$ getResults
+```
+
+### Local community detection algorithms 
+```
+$ cd Baseline_Algorithms/Local_Algorithms/Algorithms/
+
+$ cd LEMON
+$ matlab
+$ LEMON
+```
+
+
 
