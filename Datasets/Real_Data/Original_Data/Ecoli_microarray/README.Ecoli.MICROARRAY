@@ -1,0 +1,38 @@
+The file Ecoli_microarray.Rdata is an R data file (in binary format) containing 
+two data objects.  
+
+The first data object, logexpr.data, is a 445x4345 matrix of 
+microarray expression data from the organism E. coli, for each of 445 
+experiments at each of 4345 genes.  These data are on a logarithmic (base 2) 
+scale, and have been normalized using the so-called RMA method.  Row-names
+for this object correspond to a short-hand for experiments, and column names
+correspond to a short-hand for genes.  Columns have been sorted so that the
+first 1211 genes are the same as those in the RegulonDB database (see below).
+In addition, the first 153 genes are the so-called transcription factors in
+RegulonDB.
+
+The second data object is a partial adjacency matrix describing known 
+regulatory patterns among E coli genes, according to the RegulonDB
+database (http://regulondb.ccg.unam.mx/).   This matrix is 1211x153, with
+RegulonDB genes in the rows, and those transcription factors among these
+genes in the columns.  The matrix is binary, with a value `1' indicating that
+the corresponding transcription factor regulates the corresponding gene.
+Row and column names correspond to the same short-hand for genes as used
+in the first data object.
+
+In using this data, please cite
+
+  E.D. Kolaczyk, "Statistical Analysis of Network Data: Methods and Models".
+  Springer, New York  2009
+
+as well as
+
+  J.J. Faith, M.E. Driscoll, V.A. Fusaro, E.J. Cosgrove, B. Hayete, F.S. Juhn,
+  S.J. Schneider, and T.S. Gardner, "Many Microbe Microarrays Database:
+  uniformly normalized Affymetrix compendia with structured experimental
+  metadata.  Nucleic Acids Research, doi:10.1093/nar/gkm815
+
+as the original source of this data.
+
+For additional details on this data, see the above paper.  Raw data for these
+and other microarrays from this project can be found at http://m3d.bu.edu/.  

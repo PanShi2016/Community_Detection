@@ -1,0 +1,21 @@
+Two files are included in this .zip file.  The first file, PPI_Cell_Comm.txt,
+contains an edge list for a network of protein interactions in the organism
+S. cerevisiae (i.e., baker's / brewer's yeast).  This network is in fact
+a sub-network of the larger protein interaction network in the file ppi.zip
+available on this website.  The sub-network was defined by identifying all 
+proteins in the original newtork annotated with the term `Cellular 
+Communication' in the January 2007 Gene Ontology (GO) database, and extracting 
+the corresponding induced sub-graph.  After removing isolates, the sub-network 
+consists of 134 vertices (proteins) and 241 edges (protein interactions).  The 
+second file, ICSC_indicator.txt, contains a binary vector of length 134, 
+indicating which of the proteins in the sub-network are also annotated with the 
+term `Intracellular Signaling Cascade', a more specific form of cellular
+communication.
+
+In using this data, please cite
+  
+  E.D. Kolaczyk, "Statistical Analysis of Network Data: Methods and Models",
+  Springer, New York  2009
+
+and acknowledge the Gene Ontology database (http://www.geneontology.org/) as
+the original source.

@@ -1,0 +1,10 @@
+This directory contains a subset of the data containing terrorism related information collected by the MIND Lab at UMD (http://www.mindswap.org/).
+
+This subset of the dataset was designed for classification purposes and contains two types of information related to terrorism attack entities: the attributes of the entities and the links that connect various entities together to form a graph structure. Using the files in this directory one can construct two different graphs involving terrorist attacks, one based on co-located attacks and another, based on co-located attacks organized by the same terrorist organization. Please take a look at our paper (http://www.cs.umd.edu/~sen/pubs/sna2006/RelClzPIT.pdf) for more information about the experiment setup. 
+
+Below we give some more information about the files in this directory:
+* terrorist_attack.labels: Contains the labels that we want to assign to each terrorist attack entity.
+* terrorist_attack.nodes: Contains the various terrorist attack entities. Each line begins with the unique id of the entity followed by a 0-1 vector indicating the attributes that are present and the attributes that are absent. The last entry in the line is the correct class label of the entity.
+* terrorist_attack_loc.edges: Each line contains two ids of terrorist attacks. This file defines the edges connecting co-located terrorist attacks.
+* terrorist_attack_loc_org.edges: Each line contains two ids of terrorist attacks. This file defines the edges connecting co-located terrorist attacks performed by the same terrorist organization.
+

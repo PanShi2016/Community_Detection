@@ -1,0 +1,36 @@
+These files correspond to an experiment conducted by Coates et al. to 
+measure the difference in delay experienced by packet probes sent over 
+the Internet during a short period in 2001, from a desktop computer in the 
+ECE department at Rice University to similar machines at ten other
+university locations.  The data were intended for use with a newly proposed
+method of Internet topology inference.
+
+The packet probes consisted of two small packets, separated by one large packet.
+Both small packets were sent to the same destination, while the large packet
+was sent to a different destination.  The file FBR1output.delay contains 
+
+COl1:	Difference in delay of the small packets (in milliseconds)
+COL2:	Destination of small packets.
+COL3: 	Destination of large packet.
+
+Destinations are coded simply with the integers 1 through 10, corresponding
+as follows to the abbreviations used in Figure 7.9 of the book.  
+
+	1	IST		Instituto Superior Tecnico (Portugal)
+	2	IT		Instituto de Telecomunicacoes (Portugal)
+	3	Bkly		University of California, Berkeley
+	4	MSU1		Michigan State University (Host 1)
+	5	MSU2		Michigan State University (Host 2)
+	6	UIUC		University of Illinois, Urbana-Champaign
+	7	UWisc1		University of Wisconsin, Madison (Host 1)
+	8	UWisc2		University of Wisconsin, Madison (Host 2)
+	9	RiceU1 		Rice University (Host 1)
+	10	RiceU2		Rice University (Host 2)
+
+In using these data, please cite
+
+  M. Coates, R. Castro, R. Nowak, M. Gadhiok, R. King, and Y. Tsang,
+  "Maximum likelihood topology identification from edge-based unicast
+  measurements,"  Proceedings of the 2002 ACM SIGMETRICS International
+  Conference on Measurement and Modeling of Computer Systems, pp. 11-20,
+  2002.

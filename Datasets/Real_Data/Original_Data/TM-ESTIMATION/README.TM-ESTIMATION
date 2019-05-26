@@ -1,0 +1,33 @@
+The file TM-ESTIMATION.zip contains this README file and the file
+SAND_TM_Estimation_Data.mat, a Matlab .mat data file.  This data file
+can be read, from within Matlab, simply by entering 
+
+   load SAND_TM_Estimation_Data.mat
+
+The data file contains data relevant to the case study in Section 9.3.3
+of SAND.  The data are based on measurements of origin-destination flows on
+the Abilene network, taken continuously over a seven-day period, starting 
+December 22, 2003.  In particular, these data represent aggregate flow volumes
+for 12x24x7 = 2016 consecutive 5 minute time intervals over the week,
+across 11x11 = 121 origin-destination pairs (including self-loops)
+in the 11 node network (where nodes represent points-of-presence (PoPs)).
+
+The following variables are found in the .mat file
+
+X          a 2016x121 matrix of flow volumes
+A          a 30x121 matrix, describing the routing of the 121 flows over the 30
+           edges between adjacent nodes in the Abilene network
+odnames    a 121x1 character vector of origin-destination pair names
+edgenames  a 30x1 character vector of node pairs sharing an edge
+
+The ordering of pairs of names in `odnames' and `edgenames' corresponds to 
+the orderings in X and A.  Approximate link counts can be synthesized by
+defining Y = A*X' .
+
+For additional details on the original flow data, please see
+
+	A. Lakhina, K. Papgiannaki, C. Crovella, M. Diot, E. Kolaczyk,
+	and N. Taft, "Structural analysis of network traffic flows",
+	in Proceedings of the ACM Sigmetrics Conference, 2004.
+
+In using this data, please cite the above article as the source.

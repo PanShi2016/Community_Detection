@@ -1,0 +1,17 @@
+The file PPI.txt contains an (unordered) edge list for a network of
+protein-protein interactions in the organism Saccharomyces cerevisiae
+(i.e., brewers/bakers yeast).  These data were culled from the January 2007
+version of the BioGRID database (http://www.thebiogrid.org/), a general
+repository for biological interaction datasets, and consist of an
+aggregation of published experimental results from various labs across
+the world on the affinity of protein pairs to interact with each other.
+There are 5151 vertices, corresponding to proteins, and 31201 edges,
+corresponding to protein interactions.  
+
+In using these data, please cite 
+
+  Jiang, X., Nariai, N., Steffen, M., Kasif, S., and Kolaczyk (2008).
+  Integration of relational and hierarchical network information for
+  protein function prediction.  BMC Bioinformatics, 9:350
+
+and acknowledge BioGRID as the original source.

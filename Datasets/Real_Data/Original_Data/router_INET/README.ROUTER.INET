@@ -1,0 +1,9 @@
+The file router_INET.txt contains an (unordered) edge list for a portion of
+the router-level Internet, based on measurements obtained between April 21
+and May 8, 2003 by the skitter monitoring system run by CAIDA 
+(http://www.caida.org).  Skitter is a system used for Internet topology 
+discovery.  There are 192,244 vertices, corresponding to discovered routing 
+devices, and 609,066 edges, corresponding to discovered links between those
+devices.
+
+In using these data, please acknowledge CAIDA. 

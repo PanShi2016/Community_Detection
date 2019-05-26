@@ -1,0 +1,11 @@
+The file cond-mat-2005.gml contains an updated version of cond-mat.gml, the
+collaboration network of scientists posting preprints on the condensed
+matter archive at www.arxiv.org.  This version is based on preprints posted
+to the archive between January 1, 1995 and March 31, 2005.  The network is
+weighted, with weights assigned as described in M. E. J. Newman,
+Phys. Rev. E 64, 016132 (2001).
+
+These data can be cited (as an updated version of)
+
+  M. E. J. Newman, The structure of scientific collaboration networks,
+  Proc. Natl. Acad. Sci. USA 98, 404-409 (2001).

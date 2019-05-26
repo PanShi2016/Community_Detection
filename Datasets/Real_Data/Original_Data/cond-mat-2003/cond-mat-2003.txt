@@ -1,0 +1,19 @@
+The file cond-mat-2003.gml contains an updated version of cond-mat.gml, the
+collaboration network of scientists posting preprints on the condensed
+matter archive at www.arxiv.org.  This version is based on preprints posted
+to the archive between January 1, 1995 and June 30, 2003.  The largest
+component of this network, which contains 27519 scientists, has been used
+by several authors as a test-bed for community-finding algorithms for large
+networks; see for example J. Duch and A. Arenas, Phys. Rev. E 72, 027104
+(2005).  The network is weighted, with weights assigned as described in
+M. E. J. Newman, Phys. Rev. E 64, 016132 (2001).
+
+These data can be cited as either of:
+
+  M. E. J. Newman, The structure of scientific collaboration networks,
+  Proc. Natl. Acad. Sci. USA 98, 404-409 (2001).  This paper describes the
+  original 1999 version of the network.
+
+  M. E. J. Newman, Fast algorithm for detecting community structure in
+  networks, Phys. Rev. E 69, 066133 (2004).  This paper describes the 2003
+  version.
