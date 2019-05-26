@@ -75,9 +75,17 @@ $ PGDC_d  % run PGDC-d algorithm
 Please email to panshi@hust.edu.cn or setup an issue if you have any problems or find any bugs.
 ### Acknowledgement
 In the program, we incorporate some open source codes as baseline algorithms from the following websites:
+Global algorithms
+- [BIGCLAM](http://github.com/snap-stanford/snap/tree/master/examples/bigclam)
+- [CFinder](http://hal.elte.hu/cfinder/wiki/?n=Main.Software)
+- [DEMON](http://www.michelecoscia.com/?page_id=42)
+- [NISE](http://lab.icc.skku.ac.kr/~jjwhang/codes/cikm2013/nise.html)
+
+Local algorithms
 - [LEMON](https://github.com/yixuanli/lemon)
-- [PGDC-d](http://cs.ru.nl/~tvanlaarhoven/conductance2016/)
+- [LOSP](https://github.com/KunHe2015/LOSP)
 - [HK](https://github.com/kkloste/hkgrow)
 - [PR](https://www.cs.purdue.edu/homes/dgleich/codes/neighborhoods/)
+- [PGDC-d](http://cs.ru.nl/~tvanlaarhoven/conductance2016/)
 
 
