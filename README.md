@@ -22,7 +22,6 @@ Before compiling codes, the following software should be installed in your syste
 - From http://www-personal.umich.edu/~mejn/netdata/ you can download following datasets: karate, lesmis, adjnoun, football, dolphins, polblogs, polbooks, celegansneural, power, cond-mat, cond-mat-2003, cond-mat-2005, astro-ph, hep-th, netscience and as-22july06 
 - From https://figshare.com/articles/American_College_Football_Network_Files/93179 you can download following dataset: footballTSE
 
-From http://math.bu.edu/people/kolaczyk/datasets.html you can download following datasets:
 Note that zachary and karate are the same datasets, the difference is that zachary dataset provides ground-truth while karate without ground-truth
 
 ## Test dataset
@@ -72,7 +71,7 @@ $ PGDC_d  % run PGDC-d algorithm
 ## Announcements
 
 ### Notification
-Please email to panshi@hust.edu.cn or setup an issue if you have any problems or find any bugs.
+Please email to panshi2016@gmail.com or setup an issue if you have any problems or find any bugs.
 ### Acknowledgement
 In the program, we incorporate some open source codes as baseline algorithms from the following websites:
 #### Global algorithms
