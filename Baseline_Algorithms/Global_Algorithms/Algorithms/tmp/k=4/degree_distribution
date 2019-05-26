@@ -1,0 +1,11 @@
+# The com. degree distr. of the  communities at k=4
+# from /home/dell/Desktop/Research_Projects/Github_Projects/Community_Detection/test_data/zachary
+# at no lower link weight threshold,
+# and at no upper link weight threshold.
+# Links were treated as undirected.
+# No time limit was set for the clique search.
+# The communities were extracted solely at k=4.
+
+0 1
+1 2
+

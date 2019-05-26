@@ -1,0 +1,5 @@
+There were 2 clusters at threshold 0.200000.
+The partition density is:
+D = 0.156356
+not counting one-edge clusters:
+D = 0.156356

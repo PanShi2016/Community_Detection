@@ -1,0 +1,5 @@
+I:\RunOtherAlgos\algs\CFinder\CFinderWinLinux :
+I:\RunOtherAlgos\algs\CFinder:
+    g++ -o CFtrans CFtrans.cpp
+
+

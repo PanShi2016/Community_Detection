@@ -1,0 +1,316 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<gexf xmlns='http://www.gexf.net/1.2draft' xmlns:viz='http://www.gexf.net/1.1draft/viz' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd' version='1.2'>
+	<graph mode='static' defaultedgetype='undirected'>
+	<attributes class='node'>
+		<attribute id='0' title='c0' type='boolean'>		<default>false</default>
+		</attribute>
+		<attribute id='1' title='c1' type='boolean'>		<default>false</default>
+		</attribute>
+		<attribute id='2' title='c2' type='boolean'>		<default>false</default>
+		</attribute>
+		<attribute id='3' title='c3' type='boolean'>		<default>false</default>
+		</attribute>
+		<attribute id='4' title='c4' type='boolean'>		<default>false</default>
+		</attribute>
+		<attribute id='5' title='c5' type='boolean'>		<default>false</default>
+		</attribute>
+		<attribute id='6' title='c6' type='boolean'>		<default>false</default>
+		</attribute>
+		<attribute id='7' title='c7' type='boolean'>		<default>false</default>
+		</attribute>
+		<attribute id='8' title='c8' type='boolean'>		<default>false</default>
+		</attribute>
+	</attributes>
+		<nodes>
+			<node id='0' label='1'>
+				<viz:color r='120' g='120' b='120' a='1.0'/>
+				<viz:size value='1.500'/>
+				<attvalues>
+					<attvalue for='0' value='true'/>
+					<attvalue for='1' value='true'/>
+				</attvalues>
+			</node>
+			<node id='1' label='2'>
+				<viz:color r='120' g='120' b='120' a='1.0'/>
+				<viz:size value='1.500'/>
+				<attvalues>
+					<attvalue for='1' value='true'/>
+				</attvalues>
+			</node>
+			<node id='2' label='3'>
+				<viz:color r='120' g='120' b='120' a='1.0'/>
+				<viz:size value='1.500'/>
+				<attvalues>
+					<attvalue for='1' value='true'/>
+				</attvalues>
+			</node>
+			<node id='3' label='4'>
+				<viz:color r='120' g='120' b='120' a='1.0'/>
+				<viz:size value='1.500'/>
+				<attvalues>
+					<attvalue for='1' value='true'/>
+				</attvalues>
+			</node>
+			<node id='4' label='5'>
+				<viz:color r='120' g='120' b='120' a='1.0'/>
+				<viz:size value='1.500'/>
+				<attvalues>
+					<attvalue for='0' value='true'/>
+				</attvalues>
+			</node>
+			<node id='5' label='6'>
+				<viz:color r='120' g='120' b='120' a='1.0'/>
+				<viz:size value='1.500'/>
+				<attvalues>
+					<attvalue for='4' value='true'/>
+				</attvalues>
+			</node>
+			<node id='6' label='7'>
+				<viz:color r='120' g='120' b='120' a='1.0'/>
+				<viz:size value='1.500'/>
+				<attvalues>
+					<attvalue for='0' value='true'/>
+					<attvalue for='4' value='true'/>
+				</attvalues>
+			</node>
+			<node id='7' label='8'>
+				<viz:color r='120' g='120' b='120' a='1.0'/>
+				<viz:size value='1.500'/>
+			</node>
+			<node id='8' label='9'>
+				<viz:color r='120' g='120' b='120' a='1.0'/>
+				<viz:size value='1.500'/>
+				<attvalues>
+					<attvalue for='3' value='true'/>
+				</attvalues>
+			</node>
+			<node id='9' label='11'>
+				<viz:color r='120' g='120' b='120' a='1.0'/>
+				<viz:size value='1.500'/>
+				<attvalues>
+					<attvalue for='0' value='true'/>
+				</attvalues>
+			</node>
+			<node id='10' label='12'>
+				<viz:color r='120' g='120' b='120' a='1.0'/>
+				<viz:size value='1.500'/>
+			</node>
+			<node id='11' label='13'>
+				<viz:color r='120' g='120' b='120' a='1.0'/>
+				<viz:size value='1.500'/>
+			</node>
+			<node id='12' label='14'>
+				<viz:color r='120' g='120' b='120' a='1.0'/>
+				<viz:size value='1.500'/>
+			</node>
+			<node id='13' label='18'>
+				<viz:color r='120' g='120' b='120' a='1.0'/>
+				<viz:size value='1.500'/>
+			</node>
+			<node id='14' label='20'>
+				<viz:color r='120' g='120' b='120' a='1.0'/>
+				<viz:size value='1.500'/>
+			</node>
+			<node id='15' label='22'>
+				<viz:color r='120' g='120' b='120' a='1.0'/>
+				<viz:size value='1.500'/>
+			</node>
+			<node id='16' label='32'>
+				<viz:color r='120' g='120' b='120' a='1.0'/>
+				<viz:size value='1.500'/>
+				<attvalues>
+					<attvalue for='2' value='true'/>
+					<attvalue for='7' value='true'/>
+				</attvalues>
+			</node>
+			<node id='17' label='31'>
+				<viz:color r='120' g='120' b='120' a='1.0'/>
+				<viz:size value='1.500'/>
+				<attvalues>
+					<attvalue for='3' value='true'/>
+				</attvalues>
+			</node>
+			<node id='18' label='10'>
+				<viz:color r='120' g='120' b='120' a='1.0'/>
+				<viz:size value='1.500'/>
+			</node>
+			<node id='19' label='28'>
+				<viz:color r='120' g='120' b='120' a='1.0'/>
+				<viz:size value='1.500'/>
+			</node>
+			<node id='20' label='29'>
+				<viz:color r='120' g='120' b='120' a='1.0'/>
+				<viz:size value='1.500'/>
+				<attvalues>
+					<attvalue for='7' value='true'/>
+				</attvalues>
+			</node>
+			<node id='21' label='33'>
+				<viz:color r='120' g='120' b='120' a='1.0'/>
+				<viz:size value='1.500'/>
+				<attvalues>
+					<attvalue for='3' value='true'/>
+					<attvalue for='5' value='true'/>
+					<attvalue for='6' value='true'/>
+				</attvalues>
+			</node>
+			<node id='22' label='17'>
+				<viz:color r='120' g='120' b='120' a='1.0'/>
+				<viz:size value='1.500'/>
+				<attvalues>
+					<attvalue for='4' value='true'/>
+				</attvalues>
+			</node>
+			<node id='23' label='34'>
+				<viz:color r='120' g='120' b='120' a='1.0'/>
+				<viz:size value='1.500'/>
+				<attvalues>
+					<attvalue for='3' value='true'/>
+					<attvalue for='5' value='true'/>
+					<attvalue for='6' value='true'/>
+					<attvalue for='7' value='true'/>
+					<attvalue for='8' value='true'/>
+				</attvalues>
+			</node>
+			<node id='24' label='15'>
+				<viz:color r='120' g='120' b='120' a='1.0'/>
+				<viz:size value='1.500'/>
+			</node>
+			<node id='25' label='16'>
+				<viz:color r='120' g='120' b='120' a='1.0'/>
+				<viz:size value='1.500'/>
+			</node>
+			<node id='26' label='19'>
+				<viz:color r='120' g='120' b='120' a='1.0'/>
+				<viz:size value='1.500'/>
+				<attvalues>
+					<attvalue for='6' value='true'/>
+				</attvalues>
+			</node>
+			<node id='27' label='21'>
+				<viz:color r='120' g='120' b='120' a='1.0'/>
+				<viz:size value='1.500'/>
+			</node>
+			<node id='28' label='23'>
+				<viz:color r='120' g='120' b='120' a='1.0'/>
+				<viz:size value='1.500'/>
+			</node>
+			<node id='29' label='24'>
+				<viz:color r='120' g='120' b='120' a='1.0'/>
+				<viz:size value='1.500'/>
+				<attvalues>
+					<attvalue for='5' value='true'/>
+				</attvalues>
+			</node>
+			<node id='30' label='26'>
+				<viz:color r='120' g='120' b='120' a='1.0'/>
+				<viz:size value='1.500'/>
+				<attvalues>
+					<attvalue for='2' value='true'/>
+				</attvalues>
+			</node>
+			<node id='31' label='30'>
+				<viz:color r='120' g='120' b='120' a='1.0'/>
+				<viz:size value='1.500'/>
+				<attvalues>
+					<attvalue for='5' value='true'/>
+					<attvalue for='8' value='true'/>
+				</attvalues>
+			</node>
+			<node id='32' label='25'>
+				<viz:color r='120' g='120' b='120' a='1.0'/>
+				<viz:size value='1.500'/>
+				<attvalues>
+					<attvalue for='2' value='true'/>
+				</attvalues>
+			</node>
+			<node id='33' label='27'>
+				<viz:color r='120' g='120' b='120' a='1.0'/>
+				<viz:size value='1.500'/>
+				<attvalues>
+					<attvalue for='8' value='true'/>
+				</attvalues>
+			</node>
+		</nodes>
+		<edges>
+			<edge id='0' source='0' target='1'/>
+			<edge id='1' source='0' target='2'/>
+			<edge id='2' source='0' target='3'/>
+			<edge id='3' source='0' target='4'/>
+			<edge id='4' source='0' target='5'/>
+			<edge id='5' source='0' target='6'/>
+			<edge id='6' source='0' target='7'/>
+			<edge id='7' source='0' target='8'/>
+			<edge id='8' source='0' target='9'/>
+			<edge id='9' source='0' target='10'/>
+			<edge id='10' source='0' target='11'/>
+			<edge id='11' source='0' target='12'/>
+			<edge id='12' source='0' target='13'/>
+			<edge id='13' source='0' target='14'/>
+			<edge id='14' source='0' target='15'/>
+			<edge id='15' source='0' target='16'/>
+			<edge id='16' source='1' target='2'/>
+			<edge id='17' source='1' target='3'/>
+			<edge id='18' source='1' target='7'/>
+			<edge id='19' source='1' target='12'/>
+			<edge id='20' source='1' target='13'/>
+			<edge id='21' source='1' target='14'/>
+			<edge id='22' source='1' target='15'/>
+			<edge id='23' source='1' target='17'/>
+			<edge id='24' source='2' target='3'/>
+			<edge id='25' source='2' target='7'/>
+			<edge id='26' source='2' target='8'/>
+			<edge id='27' source='2' target='12'/>
+			<edge id='28' source='2' target='18'/>
+			<edge id='29' source='2' target='19'/>
+			<edge id='30' source='2' target='20'/>
+			<edge id='31' source='2' target='21'/>
+			<edge id='32' source='3' target='7'/>
+			<edge id='33' source='3' target='11'/>
+			<edge id='34' source='3' target='12'/>
+			<edge id='35' source='4' target='6'/>
+			<edge id='36' source='4' target='9'/>
+			<edge id='37' source='5' target='6'/>
+			<edge id='38' source='5' target='9'/>
+			<edge id='39' source='5' target='22'/>
+			<edge id='40' source='6' target='22'/>
+			<edge id='41' source='8' target='17'/>
+			<edge id='42' source='8' target='21'/>
+			<edge id='43' source='8' target='23'/>
+			<edge id='44' source='12' target='23'/>
+			<edge id='45' source='14' target='23'/>
+			<edge id='46' source='16' target='20'/>
+			<edge id='47' source='16' target='21'/>
+			<edge id='48' source='16' target='23'/>
+			<edge id='49' source='16' target='30'/>
+			<edge id='50' source='16' target='32'/>
+			<edge id='51' source='17' target='21'/>
+			<edge id='52' source='17' target='23'/>
+			<edge id='53' source='18' target='23'/>
+			<edge id='54' source='19' target='23'/>
+			<edge id='55' source='19' target='29'/>
+			<edge id='56' source='19' target='32'/>
+			<edge id='57' source='20' target='23'/>
+			<edge id='58' source='21' target='23'/>
+			<edge id='59' source='21' target='24'/>
+			<edge id='60' source='21' target='25'/>
+			<edge id='61' source='21' target='26'/>
+			<edge id='62' source='21' target='27'/>
+			<edge id='63' source='21' target='28'/>
+			<edge id='64' source='21' target='29'/>
+			<edge id='65' source='21' target='31'/>
+			<edge id='66' source='23' target='24'/>
+			<edge id='67' source='23' target='25'/>
+			<edge id='68' source='23' target='26'/>
+			<edge id='69' source='23' target='27'/>
+			<edge id='70' source='23' target='28'/>
+			<edge id='71' source='23' target='29'/>
+			<edge id='72' source='23' target='31'/>
+			<edge id='73' source='23' target='33'/>
+			<edge id='74' source='29' target='30'/>
+			<edge id='75' source='29' target='31'/>
+			<edge id='76' source='30' target='32'/>
+			<edge id='77' source='31' target='33'/>
+		</edges>
+	</graph>
+</gexf>

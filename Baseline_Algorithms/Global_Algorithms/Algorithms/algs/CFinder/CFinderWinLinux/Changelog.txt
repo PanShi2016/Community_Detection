@@ -1,0 +1,20 @@
+Changelog for CFinder (cfinder.org) -- only user-visible changes included
+
+Version 2.0.1 (2008. dec. 16.)
+
+	* make handling 'output directory already exists' case more
+	  user-friendly: ask user what to do with nice dialog.
+	* fix some exceptions thrown by prefuse when communities are
+	  switched rapidly
+
+Version 2.0 (final version) (2008. jul. 11.)
+
+	* small changes in newer graph widget to make more user-friendly
+	* made stdout output more verbose
+	
+Version 2.0b3 (third beta version) (2007. okt. 28.)
+
+	* Added Mac OS X support. (compiled for powerpc processor, but
+	runs on intel processors, too)
+	* Added directed version of word-association demo file
+	* Added Changelog.txt

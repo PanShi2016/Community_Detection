@@ -1,0 +1,30 @@
+Greedy Clique Expansion Community Finder
+Running with parameters: k: 4 eta: 0.6 alpha: 1 Phi: 0.75
+Loading file: graph_single.pairs
+bg.ecount():3256
+bg.vcount():503
+bg.edge_targets.size():6512
+bg.degrees.size():503
+bg.offsets.size():504
+0.00s: Processed: 1000 cliques...
+Loaded : 1051 cliques
+0.01s: Processed: 1000 cliques...
+Current size of clique being processed: 6
+Cliques sorted. About to run spokenFor pruning...number of seeds before: 1051
+0.01s: Processed: 1000 cliques...
+Sweeping the seeds marked for deletion
+Done
+SpokenFor complete. Number of seeds after: 186
+0.01s: Total number of seeds remaining: 186
+Edges in loaded graph:	3256
+Nodes in loaded graph:	503
+0.01s: 0.01s: --------------------------------
+Number of seeds: 186
+0.01s: Processed: 0 seeds
+Warning: size of growing communities exceeds probable size: try increasing Alpha value.
+0.01s: Number seeds discarded before expansion: 154 seeds
+Number seeds discarded after expansion: 8 seeds
+Number seeds kept: 24 seeds
+Sweeping the seeds marked for deletion
+Done
+Finished

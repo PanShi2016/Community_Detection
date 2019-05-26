@@ -1,0 +1,7 @@
+BigClam	0.329433
+LinkCommunity_c++	0.006002
+GCECommunityFinder	0.002846
+OSLOM	0.005597
+DEMON	0.607468
+CFinder	0.008781
+NISE	12.9374

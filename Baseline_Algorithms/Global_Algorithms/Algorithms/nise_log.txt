@@ -1,0 +1,6 @@
+--- filtering phase: 0.05 seconds
+--- seeding phase: 0.03 seconds
+--- expansion phase: 0.05 seconds
+--- propagation phase: 0.02 seconds
+------ total run time: 0.15 seconds
+returned no. of clusters: 2, graph coverage: 47.06 (%) 
