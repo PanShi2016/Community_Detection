@@ -48,8 +48,36 @@ $ cd Baseline_Algorithms/Local_Algorithms/Algorithms/
 
 $ cd LEMON
 $ matlab
-$ LEMON
+$ LEMON  % run LEMON algorithm
+
+$ cd LOSP
+$ matlab
+LOSP    % run LOSP algorithm
+
+$ cd HK
+$ matlab
+$ mex -largeArrayDims hkgrow_mex.cpp   % compile the mex file 
+$ HK    % run HK algorithm
+
+$ cd PR
+$ matlab 
+$ mex -largeArrayDims pprgrow_mex.cc   % compile the mex file 
+$ PR   % run PR algorithm
+
+$ cd PGDC-d
+$ matlab
+$ PGDC_d  % run PGDC-d algorithm
 ```
 
+## Announcements
+
+### Notification
+Please email to panshi@hust.edu.cn or setup an issue if you have any problems or find any bugs.
+### Acknowledgement
+In the program, we incorporate some open source codes as baseline algorithms from the following websites:
+- [LEMON](https://github.com/yixuanli/lemon)
+- [PGDC-d](http://cs.ru.nl/~tvanlaarhoven/conductance2016/)
+- [HK](https://github.com/kkloste/hkgrow)
+- [PR](https://www.cs.purdue.edu/homes/dgleich/codes/neighborhoods/)
 
 
