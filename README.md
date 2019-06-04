@@ -63,9 +63,9 @@ $ matlab
 $ mex -largeArrayDims pprgrow_mex.cc   % compile the mex file 
 $ PR   % run PR algorithm
 
-$ cd PGDC-d
+$ cd PGDc-EMc
 $ matlab
-$ PGDC_d  % run PGDC-d algorithm
+$ PGDc_EMc  % run PGDc_EMc algorithm
 
 $ cd YL
 $ matlab
@@ -92,7 +92,7 @@ In the program, we incorporate some open source codes as baseline algorithms fro
 - [LOSP](https://github.com/KunHe2015/LOSP)
 - [HK](https://github.com/kkloste/hkgrow)
 - [PR](https://www.cs.purdue.edu/homes/dgleich/codes/neighborhoods/)
-- [PGDC-d](http://cs.ru.nl/~tvanlaarhoven/conductance2016/)
+- [PGDc-EMc](http://cs.ru.nl/~tvanlaarhoven/conductance2016/)
 - [YL](http://cs.ru.nl/~tvanlaarhoven/conductance2016/)
 
 
