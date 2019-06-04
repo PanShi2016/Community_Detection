@@ -70,6 +70,10 @@ $ PGDc_EMc  % run PGDc_EMc algorithm
 $ cd YL
 $ matlab
 $ YL   % run YL algorithm
+
+$ cd MOV
+$ matlab
+$ MOV  % run MOV algorithm
 ```
 
 ## Announcements
@@ -94,5 +98,4 @@ In the program, we incorporate some open source codes as baseline algorithms fro
 - [PR](https://www.cs.purdue.edu/homes/dgleich/codes/neighborhoods/)
 - [PGDc_EMc](http://cs.ru.nl/~tvanlaarhoven/conductance2016/)
 - [YL](http://cs.ru.nl/~tvanlaarhoven/conductance2016/)
-
-
+- [MOV](https://github.com/kkloste/lemon-sqz)
