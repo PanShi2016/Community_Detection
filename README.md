@@ -66,6 +66,10 @@ $ PR   % run PR algorithm
 $ cd PGDC-d
 $ matlab
 $ PGDC_d  % run PGDC-d algorithm
+
+$ cd YL
+$ matlab
+$ YL   % run YL algorithm
 ```
 
 ## Announcements
@@ -89,5 +93,6 @@ In the program, we incorporate some open source codes as baseline algorithms fro
 - [HK](https://github.com/kkloste/hkgrow)
 - [PR](https://www.cs.purdue.edu/homes/dgleich/codes/neighborhoods/)
 - [PGDC-d](http://cs.ru.nl/~tvanlaarhoven/conductance2016/)
+- [YL](http://cs.ru.nl/~tvanlaarhoven/conductance2016/)
 
 
