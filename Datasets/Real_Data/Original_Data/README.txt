@@ -8,7 +8,7 @@ From http://math.bu.edu/people/kolaczyk/datasets.html you can download following
 AIDSBlog, Ecoli_microarray, epilepsy, packet_delay, ppi, PPI_function, router_INET, TM-ESTIMATION and zachary
 
 From http://cb.csail.mit.edu/cb/mna/isobase/ you can download following datasets:
-ISobase
+Isobase
 
 From http://socialcomputing.asu.edu/pages/datasets you can download following datasets:
 BlogCatalog and Flickr
