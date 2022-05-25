@@ -1,4 +1,4 @@
-# Community Detection Algorithms
+# Community Detection Algorithm
 There are some datasets and algorithms for community detection
 
 ## Requirements
